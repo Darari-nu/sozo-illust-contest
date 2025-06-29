@@ -826,8 +826,8 @@ body {
     }
     
     .prize-banner {
-        top: 20%;
-        right: 2%;
+        top: 15%;
+        right: 5%;
         font-size: 1.3rem;
         padding: 12px 22px;
         transform: rotate(10deg);
@@ -883,8 +883,8 @@ body {
     }
     
     .prize-banner {
-        top: 25%;
-        right: 2%;
+        top: 18%;
+        right: 3%;
         font-size: 1rem;
         padding: 8px 15px;
         transform: rotate(8deg);
