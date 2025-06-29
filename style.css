@@ -808,11 +808,15 @@ body {
     }
     
     .prize-banner {
-        top: 10%;
-        right: 3%;
-        font-size: 1.5rem;
-        padding: 15px 25px;
-        transform: rotate(12deg);
+        top: 8%;
+        right: 2%;
+        font-size: 1.3rem;
+        padding: 12px 22px;
+        transform: rotate(10deg);
+    }
+    
+    .hero-content {
+        padding-top: 20px;
     }
     
     .hero-title {
@@ -858,6 +862,18 @@ body {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+    
+    .prize-banner {
+        top: 3%;
+        right: 1%;
+        font-size: 1rem;
+        padding: 8px 15px;
+        transform: rotate(8deg);
+    }
+    
+    .hero-content {
+        padding-top: 40px;
     }
     
     .overview-item {
