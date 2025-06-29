@@ -429,6 +429,24 @@ body {
     margin-top: 1rem;
 }
 
+@media (max-width: 768px) {
+    .vision-text {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    
+    .vision-text br {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .vision-text {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+}
+
 /* === CONTEST OVERVIEW === */
 .overview-grid {
     display: grid;
@@ -808,7 +826,7 @@ body {
     }
     
     .prize-banner {
-        top: 8%;
+        top: 20%;
         right: 2%;
         font-size: 1.3rem;
         padding: 12px 22px;
@@ -816,7 +834,7 @@ body {
     }
     
     .hero-content {
-        padding-top: 20px;
+        padding-top: 30px;
     }
     
     .hero-title {
@@ -865,15 +883,15 @@ body {
     }
     
     .prize-banner {
-        top: 3%;
-        right: 1%;
+        top: 25%;
+        right: 2%;
         font-size: 1rem;
         padding: 8px 15px;
         transform: rotate(8deg);
     }
     
     .hero-content {
-        padding-top: 40px;
+        padding-top: 50px;
     }
     
     .overview-item {
